@@ -1,7 +1,9 @@
+import Hero from "../components/Hero";
+
 export default function Home() {
   return (
     <>
-      <p className="">home!</p>
+      <Hero firstName="john" lastName="doe" job="développeur web fullstack" />
     </>
   );
 }
