@@ -25,12 +25,10 @@ export default function Hero({ firstName, lastName, job }: HeroProp) {
 
 function Capitalize({ value, color }: CapitalizeProp) {
   return (
-    <>
-      <span
-        className={`capitalize font-bold text-6xl ${color ? `${color}` : ""}`}
-      >
-        {value}
-      </span>
-    </>
+    <span
+      className={`capitalize font-bold text-7xl ${color ? `${color}` : ""}`}
+    >
+      {value}
+    </span>
   );
 }
