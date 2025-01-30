@@ -4,6 +4,11 @@ type HeroProp = {
   job: string;
 };
 
+type CapitalizeProp = {
+  value: string;
+  color?: string;
+};
+
 export default function Hero({ firstName, lastName, job }: HeroProp) {
   return (
     <div className="flex flex-col">
@@ -17,11 +22,6 @@ export default function Hero({ firstName, lastName, job }: HeroProp) {
     </div>
   );
 }
-
-type CapitalizeProp = {
-  value: string;
-  color?: string;
-};
 
 function Capitalize({ value, color }: CapitalizeProp) {
   return (

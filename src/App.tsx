@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Aside from "./components/Aside";
 
-function App() {
+export default function App() {
   return (
     <>
       <div className="flex flex-col min-h-screen">
@@ -17,5 +17,3 @@ function App() {
     </>
   );
 }
-
-export default App;

@@ -1,21 +1,22 @@
+type NavItemProp = {
+  value: string;
+};
+
 export default function Navbar() {
   return (
     <>
       <nav className="flex items-center justify-center shadow-xl">
         <ul className="inline-flex">
           <NavItem value="home" />
-          <NavItem value="à propos" />
-          <NavItem value="projets" />
-          <NavItem value="contact" />
+          <NavItem value="who tf is that guy?" />
+          <NavItem value="skills" />
+          <NavItem value="projects" />
+          <NavItem value="contact me" />
         </ul>
       </nav>
     </>
   );
 }
-
-type NavItemProp = {
-  value: string;
-};
 
 function NavItem({ value }: NavItemProp) {
   return (
