@@ -4,7 +4,7 @@ type NavItemProp = {
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 flex items-center justify-center shadow-xl">
+    <nav className="bg-white sticky top-0 z-10 flex items-center justify-center shadow-xl">
       <ul className="inline-flex">
         <NavItem value="home" />
         <NavItem value="who tf is that guy?" />

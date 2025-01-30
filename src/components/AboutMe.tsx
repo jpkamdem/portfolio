@@ -1,6 +1,5 @@
-type HeaderProp = {
-  title: string;
-};
+import { Header, HeaderProp } from "./headers/Header";
+import SmallHeader from "./headers/SmallHeader";
 
 type DescProp = {
   text: string;
@@ -13,10 +12,13 @@ export default function AboutMe() {
         <div className="flex justify-center">
           <Header title="à propos de moi" />
         </div>
-        <Desc text="Actuellement en BUT Métiers du Multimédia et du Web, je souhaite mettre à l'épreuve mes compétences" />
+        <Desc
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quas sit excepturi error, optio doloremque fuga hic ad velit repellendus dolorem.
+"
+        />
       </div>
-      <section className="flex justify-evenly mt-12">
-        <div className="flex flex-col justify-between w-1/2">
+      <section className="flex justify-evenly my-16">
+        <div className="flex flex-col justify-between w-1/3">
           <SmallHeader title="moi" />
           <p className="text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
@@ -42,27 +44,10 @@ export default function AboutMe() {
   );
 }
 
-function Header({ title }: HeaderProp) {
-  return (
-    <div className="flex flex-col items-center">
-      <h1 className="uppercase font-bold text-4xl mt-4">{title}</h1>
-      <div className="w-1/4 border-b-4 border-b-rose-800 mt-4"></div>
-    </div>
-  );
-}
-
 function Desc({ text }: DescProp) {
   return (
     <>
       <p className="mt-8 w-[70dvw] text-center text-gray-800 text-xl">{text}</p>
-    </>
-  );
-}
-
-function SmallHeader({ title }: HeaderProp) {
-  return (
-    <>
-      <h1 className="capitalize mb-4 font-bold text-2xl">{title}</h1>
     </>
   );
 }
