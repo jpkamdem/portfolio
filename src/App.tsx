@@ -1,7 +1,8 @@
-import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Aside from "./components/Aside";
+import AboutMe from "./components/AboutMe";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
@@ -10,8 +11,11 @@ export default function App() {
         <Navbar />
         <main className="relative flex-1 flex justify-center items-center">
           <Aside />
-          <Outlet />
+          <Home />
         </main>
+        <div className="relative flex justify-center items-center">
+          <AboutMe />
+        </div>
         <About />
       </div>
     </>
