@@ -1,9 +1,6 @@
-import { Header, HeaderProp } from "./headers/Header";
-import SmallHeader from "./headers/SmallHeader";
-
-type DescProp = {
-  text: string;
-};
+import Desc from "./text/Desc";
+import { Header, HeaderProp } from "./text/Header";
+import SmallHeader from "./text/SmallHeader";
 
 export default function AboutMe() {
   return (
@@ -37,41 +34,29 @@ export default function AboutMe() {
         </div>
         <div>
           <SmallHeader title="mes compétences" />
-          <Skill />
+          <Skills />
         </div>
       </section>
     </>
   );
 }
 
-function Desc({ text }: DescProp) {
+function Skills() {
   return (
-    <>
-      <p className="mt-8 w-[70dvw] text-center text-gray-800 text-xl">{text}</p>
-    </>
+    <ul className="flex-wrap">
+      <Skill title="Docker" />
+      <Skill title="Git" />
+      <Skill title="React" />
+      <Skill title="Typescript" />
+      <Skill title="Adonis" />
+    </ul>
   );
 }
 
-function Skill() {
+export function Skill({ title }: HeaderProp) {
   return (
-    <>
-      <ul className="flex-wrap">
-        <SkillItem title="Docker" />
-        <SkillItem title="Git" />
-        <SkillItem title="React" />
-        <SkillItem title="Typescript" />
-        <SkillItem title="Adonis" />
-      </ul>
-    </>
-  );
-}
-
-function SkillItem({ title }: HeaderProp) {
-  return (
-    <>
-      <li className="inline-flex bg-gray-300 p-2 rounded-md mx-2 my-2">
-        <p className="text-gray-700">{title}</p>
-      </li>
-    </>
+    <li className="inline-flex bg-gray-300 p-2 rounded-md mx-2 my-2">
+      <p className="text-gray-700">{title}</p>
+    </li>
   );
 }
