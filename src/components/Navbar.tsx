@@ -6,8 +6,8 @@ export default function Navbar() {
   return (
     <nav className="bg-white sticky top-0 z-10 flex items-center justify-center shadow-xl">
       <ul className="inline-flex">
-        <NavItem value="home" />
-        <NavItem value="who tf is that guy?" />
+        <NavItem value="accueil" />
+        <NavItem value="à propos" />
         <NavItem value="projects" />
       </ul>
     </nav>

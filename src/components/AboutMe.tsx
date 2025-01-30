@@ -16,7 +16,7 @@ export default function AboutMe() {
       </div>
       <section className="flex justify-evenly my-16">
         <div className="flex flex-col justify-between w-1/3">
-          <SmallHeader title="moi" />
+          <SmallHeader title="parcours" />
           <p className="text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
             corrupti, minima voluptas quod culpa, dolore quis hic necessitatibus
