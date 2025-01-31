@@ -4,32 +4,44 @@ import SmallHeader from "./text/SmallHeader";
 
 export default function AboutMe() {
   return (
-    <>
+    <section
+      id="about_me"
+      className="h-[70dvh] flex flex-col justify-center bg-gray-50 shadow-xs"
+    >
       <div className="flex flex-col items-center">
         <div className="flex justify-center">
           <Header title="à propos de moi" />
         </div>
-        <Desc
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quas sit excepturi error, optio doloremque fuga hic ad velit repellendus dolorem.
-"
-        />
+        <Desc text="Féru de nouvelles technologies et désireux d'apprendre, je suis à la recherche d'expérience afin de solidifier mes compétences." />
       </div>
       <section className="flex justify-evenly my-16">
         <div className="flex flex-col justify-between w-1/3">
           <SmallHeader title="parcours" />
           <p className="text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-            corrupti, minima voluptas quod culpa, dolore quis hic necessitatibus
-            placeat itaque accusantium iure quibusdam esse, deserunt illum sint
-            saepe! Aliquid, omnis libero. Expedita molestias unde, quod incidunt
-            dignissimos maxime voluptate sunt excepturi odit cupiditate
-            provident, ratione ex nesciunt modi debitis doloribus natus soluta
-            illo libero nemo! Accusamus ea perspiciatis temporibus voluptatum
-            unde sapiente inventore soluta eum adipisci, aliquam nostrum, alias
-            officiis eveniet, earum nobis quas labore illo atque beatae esse
-            cumque expedita. Nulla odit magnam earum totam sed minima,
-            laudantium, placeat, perspiciatis facilis qui consequuntur alias.
-            Earum, pariatur error.
+            Actuellement en 3e année de{" "}
+            <span className="font-black">
+              BUT Métiers du Multimédia et de l'Internet
+            </span>
+            , je suis un développeur web qui a pour mission de produire des
+            sites interactifs ainsi qu'une architecture côté serveur solide pour
+            divers projets.
+          </p>
+          <p className="text-lg">
+            Au cours de ma formation, divers langages ont été abordés, notamment{" "}
+            <span className="text-rose-800 font-black">PHP, Java, SQL</span>{" "}
+            ainsi que <span className="font-black">Javascript</span> et surtout{" "}
+            <span className="font-black">Typescript</span> que j'apprécie
+            beaucoup. Des concepts très présents tels que la{" "}
+            <span className="text-rose-800 font-black">
+              programmation orienté objet
+            </span>
+            , le modèle MVC ou encore la méthode AGILE m'a permis de mieux
+            manoeuvrer lorsque je travaillais sur divers projets.
+          </p>
+          <p className="text-lg">
+            Dans l'optique de consolider mes récents acquis, je me tiens
+            disponible pour de nouvelles expériences, que cela soit côté client
+            ou serveur.
           </p>
         </div>
         <div>
@@ -37,18 +49,22 @@ export default function AboutMe() {
           <Skills />
         </div>
       </section>
-    </>
+    </section>
   );
 }
 
 function Skills() {
   return (
-    <ul className="flex-wrap">
+    <ul className="flex-wrap w-2/3">
       <Skill title="Docker" />
       <Skill title="Git" />
       <Skill title="React" />
       <Skill title="Typescript" />
-      <Skill title="Adonis" />
+      <Skill title="Adonis.js" />
+      <Skill title="SQL" />
+      <Skill title="Tailwind" />
+      <Skill title="Programmation orienté objet" />
+      <Skill title="MVC" />
     </ul>
   );
 }

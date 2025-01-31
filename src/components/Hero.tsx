@@ -11,7 +11,7 @@ type CapitalizeProp = {
 
 export default function Hero({ firstName, lastName, job }: HeroProp) {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col shadow-xl p-16">
       <h1>
         <Capitalize value={firstName} color="text-rose-800" />{" "}
         <Capitalize value={lastName} />

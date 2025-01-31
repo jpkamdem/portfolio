@@ -8,7 +8,10 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <div className="bg-gray-100 flex justify-center items-center h-[100dvh]">
+      <div
+        id="hero"
+        className="bg-gray-100 flex justify-center items-center h-[100dvh]"
+      >
         <Aside />
         <Home />
       </div>
