@@ -1,6 +1,5 @@
 import { IconType } from "react-icons";
 import { FaLinkedin } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
 
 type AsideProp = {
   link: string;
@@ -15,7 +14,6 @@ export default function Aside() {
           link="https://www.linkedin.com/in/jean-philippe-kamdem-92b699210/"
           icon={FaLinkedin}
         />
-        <AsideItem link="https://x.com/Konnnnro" icon={FaTwitter} />
       </ul>
     </aside>
   );
