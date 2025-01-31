@@ -60,6 +60,7 @@ export default function Projects() {
             "Adonis.js",
             "SQL",
             "Tailwind",
+            "API Rest",
           ]}
         />
         <Project
@@ -88,7 +89,7 @@ function Project({ title, desc, url, img, list, type }: ProjectProp) {
         <ul>
           <UsedTechnos list={list} />
         </ul>
-        <p className="bg-rose-800 p-4 rounded-sm text-white duration-100 hover:cursor-pointer hover:bg-white border hover:text-black">
+        <p className="bg-rose-800 p-4 rounded-lg text-white duration-100 hover:cursor-pointer hover:bg-white border hover:text-black">
           <a href={url} target="_blank">
             Voir le code
           </a>
