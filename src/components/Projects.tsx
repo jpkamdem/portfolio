@@ -27,7 +27,7 @@ export default function Projects() {
         <div className="flex justify-center">
           <Header title="projets" />
         </div>
-        <Desc text="Voici un aperçu des projets auxquels j'ai pris part" />
+        <Desc text="Voici les projets auxquels j'ai pris part" />
       </div>
       <section className="flex flex-col my-16">
         <Project
@@ -60,7 +60,6 @@ export default function Projects() {
             "Adonis.js",
             "SQL",
             "Tailwind",
-            "API Rest",
           ]}
         />
         <Project

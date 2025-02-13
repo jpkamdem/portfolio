@@ -3,6 +3,7 @@ import Aside from "./components/Aside";
 import AboutMe from "./components/AboutMe";
 import Home from "./pages/Home";
 import Projects from "./components/Projects";
+import Veille from "./components/Veille";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Home />
       </div>
       <AboutMe />
+      <Veille />
       <Projects />
     </>
   );

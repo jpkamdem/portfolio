@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <section
       id="about_me"
-      className="h-[70dvh] flex flex-col justify-center items-center bg-gray-50-50 shadow-xs"
+      className="h-[70dvh] flex flex-col justify-center items-center bg-gray-50-50 shadow-xs pt-28"
     >
       <div className="flex flex-col items-center">
         <div className="flex justify-center">
@@ -56,18 +56,15 @@ export default function AboutMe() {
 function Skills() {
   return (
     <ul className="flex-wrap">
-      <Skill title="Programmation orienté objet" />
-      <Skill title="API Rest" />
-      <Skill title="MVC" />
-      <Skill title="Figma" />
       <Skill title="Git" />
       <Skill title="Docker" />
       <Skill title="Typescript" />
       <Skill title="SQL" />
-      <Skill title="Tailwind" />
-      <Skill title="React" />
       <Skill title="Node.js" />
+      <Skill title="Angular" />
+      <Skill title="React" />
       <Skill title="Adonis.js" />
+      <Skill title="Tailwind" />
     </ul>
   );
 }
