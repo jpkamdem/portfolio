@@ -9,6 +9,7 @@ export default function Navbar() {
       <ul className="inline-flex">
         <NavItem value="accueil" anchor="hero" />
         <NavItem value="à propos" anchor="about_me" />
+        <NavItem value="veille" anchor="veille" />
         <NavItem value="projects" anchor="projects" />
       </ul>
     </nav>
