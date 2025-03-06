@@ -27,16 +27,7 @@ export default function AboutMe() {
             divers projets.
           </p>
           <p className="text-lg">
-            Au cours de ma formation, divers langages ont été abordés, notamment{" "}
-            <span className="text-rose-800 font-black">PHP, Java, SQL</span>{" "}
-            ainsi que <span className="font-black">Javascript</span> et surtout{" "}
-            <span className="font-black">Typescript</span> que j'apprécie
-            beaucoup. Des concepts très présents tels que la{" "}
-            <span className="text-rose-800 font-black">
-              programmation orienté objet
-            </span>
-            , le modèle MVC ou encore la méthode AGILE m'a permis de mieux
-            manoeuvrer lorsque je travaillais sur divers projets.
+            Titulaire un d'un baccalauréat STMG et d'un DUT Gestion Logistique Transport, je me suis réorienté car cette formation ne me plaisait plus.
           </p>
           <p className="text-lg">
             Dans l'optique de consolider mes récents acquis, je me tiens
@@ -63,7 +54,6 @@ function Skills() {
       <Skill title="Node.js" />
       <Skill title="Angular" />
       <Skill title="React" />
-      <Skill title="Adonis.js" />
       <Skill title="Tailwind" />
     </ul>
   );

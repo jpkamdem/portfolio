@@ -21,6 +21,9 @@ export default function Veille() {
       <h3 className="my-4">
         <span className="font-bold">Fréquence :</span> 1 fois par semaine
       </h3>
+      <p>
+        J'ai pour projet de me spécialiser dans le langage Typescript, à la fois frontend et backend. C'est dans cette optique que j'ai suivi les outils de veille suivant :
+      </p>
       <Carousel />
     </section>
   );

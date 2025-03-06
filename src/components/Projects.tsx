@@ -57,7 +57,7 @@ export default function Projects() {
             "Figma",
             "Typescript",
             "React",
-            "Adonis.js",
+            "Node.js",
             "SQL",
             "Tailwind",
           ]}
