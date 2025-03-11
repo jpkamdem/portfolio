@@ -22,16 +22,9 @@ export default function AboutMe() {
             <span className="font-black">
               BUT Métiers du Multimédia et de l'Internet
             </span>
-            , je suis un développeur web qui a pour mission de produire des
+            , je suis un développeur web FullStack qui a pour mission de produire des
             sites interactifs ainsi qu'une architecture côté serveur solide pour
             divers projets.
-          </p>
-          <p className="text-lg">
-            Titulaire un d'un baccalauréat STMG et d'un DUT Gestion Logistique Transport, je me suis réorienté car cette formation ne me plaisait plus.
-          </p>
-          <p className="text-lg">
-            Dans l'optique de consolider mes récents acquis, je me tiens
-            disponible pour de nouvelles expériences, que cela soit frontend ou backend
           </p>
         </div>
         <div className="flex flex-col w-1/4">
