@@ -1,5 +1,8 @@
 import { IconType } from "react-icons";
 import { FaLinkedin } from "react-icons/fa";
+import cv from "../assets/CV.pdf";
+import cvImage from "../assets/cv.png";
+import email from "../assets/email.png"
 
 type AsideProp = {
   link: string;
@@ -14,6 +17,20 @@ export default function Aside() {
           link="https://www.linkedin.com/in/jean-philippe-kamdem-92b699210/"
           icon={FaLinkedin}
         />
+        <li className="hover:cursor-pointer">
+          <div className="inline-flex items-center justify-center bg-gray-50 p-4">
+            <a href={cv}>
+              <img src={cvImage} alt="" className="h-8"/>
+            </a>
+          </div>
+        </li>
+        <li className="hover:cursor-pointer">
+          <div className="inline-flex items-center justify-center bg-gray-50 p-4">
+            <a href="mailto:jeanphilippekamdemfondjo@gmail.com">
+              <img src={email} alt="" className="h-8"/>
+            </a>
+          </div>
+        </li>
       </ul>
     </aside>
   );

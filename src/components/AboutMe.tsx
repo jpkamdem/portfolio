@@ -31,8 +31,7 @@ export default function AboutMe() {
           </p>
           <p className="text-lg">
             Dans l'optique de consolider mes récents acquis, je me tiens
-            disponible pour de nouvelles expériences, que cela soit côté client
-            ou serveur.
+            disponible pour de nouvelles expériences, que cela soit frontend ou backend
           </p>
         </div>
         <div className="flex flex-col w-1/4">
