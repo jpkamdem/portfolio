@@ -43,7 +43,7 @@ export default function Projects() {
           img={ac2flVideo}
           type="video"
           title="AC2FL"
-          list={["Git", "Figma", "Javascript"]}
+          list={["Git", "Figma", "Javascript, Php, MySQL"]}
         />
         <Project
           url="https://github.com/jpkamdem/pulsora-final"
@@ -59,6 +59,7 @@ export default function Projects() {
             "React",
             "Node.js",
             "SQL",
+            'PostgreSQL',
             "Tailwind",
           ]}
         />
