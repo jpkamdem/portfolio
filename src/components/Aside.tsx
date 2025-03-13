@@ -1,6 +1,6 @@
 import { IconType } from "react-icons";
 import { FaLinkedin } from "react-icons/fa";
-import cv from "../assets/CV.pdf";
+import cv from "../assets/cv.pdf";
 import cvImage from "../assets/cv.png";
 import email from "../assets/email.png"
 
@@ -19,7 +19,7 @@ export default function Aside() {
         />
         <li className="hover:cursor-pointer">
           <div className="inline-flex items-center justify-center bg-gray-50 p-4">
-            <a href={cv}>
+            <a href={cv} target="_blank">
               <img src={cvImage} alt="" className="h-8"/>
             </a>
           </div>
