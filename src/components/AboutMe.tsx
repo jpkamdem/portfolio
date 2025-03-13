@@ -27,7 +27,7 @@ export default function AboutMe() {
             divers projets.
           </p>
         </div>
-        <div className="flex flex-col w-1/4">
+        <div className="flex flex-col w-1/3">
           <SmallHeader title="mes compétences" />
           <Skills />
         </div>
@@ -39,13 +39,16 @@ export default function AboutMe() {
 function Skills() {
   return (
     <ul className="flex-wrap">
+      <Skill title="Typescript" />
+      <Skill title="Javascript" />
+      <Skill title="Php" />
+      <Skill title="Node.js" />
       <Skill title="Git" />
       <Skill title="Docker" />
-      <Skill title="Typescript" />
       <Skill title="SQL" />
-      <Skill title="Node.js" />
       <Skill title="Angular" />
       <Skill title="React" />
+      <Skill title="Symfony" />
       <Skill title="Tailwind" />
     </ul>
   );
