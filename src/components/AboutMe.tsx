@@ -40,16 +40,16 @@ function Skills() {
   return (
     <ul className="flex-wrap">
       <Skill title="Typescript" />
-      <Skill title="Javascript" />
       <Skill title="Php" />
+      <Skill title="SQL" />
       <Skill title="Node.js" />
       <Skill title="Git" />
       <Skill title="Docker" />
-      <Skill title="SQL" />
-      <Skill title="Angular" />
+      <Skill title="Vue.js" />
       <Skill title="React" />
-      <Skill title="Symfony" />
       <Skill title="Tailwind" />
+      <Skill title="Laravel" />
+      <Skill title="Adonis.js" />
     </ul>
   );
 }
