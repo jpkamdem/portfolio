@@ -2,7 +2,7 @@ import { IconType } from "react-icons";
 import { FaLinkedin } from "react-icons/fa";
 import cv from "../assets/cv.pdf";
 import cvImage from "../assets/cv.png";
-import email from "../assets/email.png"
+import email from "../assets/email.png";
 
 type AsideProp = {
   link: string;
@@ -26,7 +26,7 @@ export default function Aside() {
         </li>
         <li className="hover:cursor-pointer">
           <div className="inline-flex items-center justify-center bg-gray-50 p-4">
-            <a href="mailto:jeanphilippekamdemfondjo@gmail.com">
+            <a href="mailto:jpkamdem@proton.me">
               <img src={email} alt="" className="h-8"/>
             </a>
           </div>
