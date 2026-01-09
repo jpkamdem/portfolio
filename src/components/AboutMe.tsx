@@ -53,8 +53,8 @@ function Skills() {
 				<Skill title="Spring Boot" />
 				<Skill title="PostgreSQL" />
 			</ul>
-			<h2>DevOps</h2>
-			<ul className="underline font-bold">
+			<h2 className="underline font-bold">DevOps</h2>
+			<ul>
 				<Skill title="Docker" />
 				<Skill title="Podman" />
 				<Skill title="Nginx" />
