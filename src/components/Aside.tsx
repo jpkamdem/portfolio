@@ -1,6 +1,6 @@
 import { IconType } from "react-icons";
 import { FaLinkedin } from "react-icons/fa";
-import cv from "../assets/cv.pdf";
+import cv from "../assets/CV.pdf";
 import cvImage from "../assets/cv.png";
 import email from "../assets/email.png";
 

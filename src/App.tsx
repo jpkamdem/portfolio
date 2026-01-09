@@ -1,9 +1,9 @@
-import Navbar from "./components/Navbar";
-import Aside from "./components/Aside";
 import AboutMe from "./components/AboutMe";
-import Home from "./pages/Home";
+import Aside from "./components/Aside";
+import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import Veille from "./components/Veille";
+// import Veille from "./components/Veille";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
         <Home />
       </div>
       <AboutMe />
-      <Veille />
+      {/* <Veille /> */}
       <Projects />
     </>
   );
